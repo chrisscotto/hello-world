@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "idea generation I'm a business operator that has worked in the medical imaging industry for 15 years. I've working in engineering, project management, product management, marketing, supply chain operations, finance, and been GM of a business. My last two jobs (Edison and Clara) have been a development platform for software developers and data scientists to build cloud-native applications and machine learning algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "cli": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:44087/git/chrisscotto/hello-world"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.14.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ical-generator": "^10.1.0",
+    "nodemailer": "^8.0.4",
+    "uuid": "^13.0.0"
+  }
+}
